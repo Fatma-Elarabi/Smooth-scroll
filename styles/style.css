@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width: 1200px;
+	margin: auto;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+header {
+	position: relative;
+	background-image: url('../1.jpg');
+	height: 662px;
+	width: 100%;
+	background-size: cover;
+}
+
+.head__overlay {
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.head {
+	position: relative;
+	z-index: 2;
+}
+h1 {
+	position: relative;
+	float: left;
+	width: 40%;
+	padding: 17px;
+	margin-top: 0;
+	color: #fff;
+}
+
+.head__navbar-list {
+	position: relative;
+	float: left;
+	font-weight: bold;
+	color: #fff;
+}
+
+li {
+	padding: 0;
+	margin: 10px;
+	display: inline-block;
+	list-style: none;
+}
+
+li.active, li:hover {
+	border-bottom: 1px solid #1abcac;
+	color: #1abcac;
+}
+
+.head__content {
+	margin-top: 100px;
+}
+
+.head__content-pargraph1 {
+	margin: 0 10%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	color: #fff;
+}
+
+span {
+	color: #1abcac;
+}
+
+.head__content-pargraph2 {
+	margin: 10px 30%;
+    text-align: center;
+	width: 40%;
+	font-size: 20px;
+	color: #fff;
+}
+
+.head__btn {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.head__btn button {
+	cursor: pointer;
+	padding: 10px;
+	border: 3px solid #fff;
+	font-weight: bold;
+	color: #fff;
+	background-color: transparent;
+}
+
+button:hover {
+	border: 3px solid #1abcac;
+	color: #1abcac;
+}
+
+.about {
+	margin-top: 20px;
+	height: 700px;
+}
